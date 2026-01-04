@@ -1,0 +1,55 @@
+{
+    "name": "@jojovms/angular-confetti-cannon",
+    "version": "0.0.1",
+    "description": "Confettō: Angular wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
+    "keywords": [
+        "angular",
+        "confetti",
+        "cannon",
+        "animation",
+        "directive",
+        "service",
+        "confettō",
+        "jojovms"
+    ],
+    "author": "Shijo Shaji (https://shijoshaji.in)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shijoshaji/confetti-cannon.git",
+        "directory": "packages/confetti-cannon/angular"
+    },
+    "bugs": {
+        "url": "https://github.com/shijoshaji/confetti-cannon/issues"
+    },
+    "homepage": "https://shijoshaji.in",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite build --watch"
+    },
+    "peerDependencies": {
+        "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0",
+        "@angular/common": "^16.0.0 || ^17.0.0 || ^18.0.0",
+        "rxjs": "^7.0.0"
+    },
+    "dependencies": {
+        "@jojovms/confetti-cannon-core": "*"
+    },
+    "devDependencies": {
+        "@angular/core": "^17.0.0",
+        "@angular/common": "^17.0.0",
+        "rxjs": "^7.8.0",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10",
+        "vite-plugin-dts": "^3.6.4",
+        "zone.js": "^0.14.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

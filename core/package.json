@@ -1,0 +1,44 @@
+{
+    "name": "@jojovms/confetti-cannon-core",
+    "version": "0.0.1",
+    "description": "Confettō: A zero-dependency confetti cannon for your web apps. Trigger it on success states, celebrations, or just for fun",
+    "keywords": [
+        "confetti",
+        "cannon",
+        "animation",
+        "core",
+        "javascript",
+        "typescript",
+        "confettō",
+        "jojovms"
+    ],
+    "author": "Shijo Shaji (https://shijoshaji.in)",
+    "homepage": "https://shijoshaji.in",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shijoshaji/confetti-cannon.git",
+        "directory": "packages/confetti-cannon/core"
+    },
+    "bugs": {
+        "url": "https://github.com/shijoshaji/confetti-cannon/issues"
+    },
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite build --watch"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10",
+        "vite-plugin-dts": "^3.6.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
