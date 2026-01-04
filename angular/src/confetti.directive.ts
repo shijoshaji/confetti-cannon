@@ -1,5 +1,6 @@
 import { Directive, Input, HostListener, ElementRef } from '@angular/core';
-import { confettō, ConfettiOptions } from '@jojovms/confetti-cannon-core';
+import { confettō } from '@jojovms/confetti-cannon-core';
+import type { ConfettiOptions } from '@jojovms/confetti-cannon-core';
 
 @Directive({
     selector: '[confetti]'
