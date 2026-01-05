@@ -35,13 +35,13 @@ npm install @jojovms/angular-confetti-cannon
 
 ### Core (Vanilla JS)
 ```javascript
-import { confettiCannon } from '@jojovms/confetti-cannon-core';
+import { confetto } from '@jojovms/confetti-cannon-core';
 
 // Fire confetti!
-confettiCannon.fire();
+confetto.fire();
 
 // Or customize it
-confettiCannon.fire({
+confetto.fire({
   particleCount: 100,
   spread: 70,
   origin: { y: 0.6 }
@@ -66,11 +66,11 @@ function App() {
 Import the module in your `app.module.ts`:
 
 ```typescript
-import { ConfettiCannonModule } from '@jojovms/angular-confetti-cannon';
+import { ConfettiModule } from '@jojovms/angular-confetti-cannon';
 
 @NgModule({
   imports: [
-    ConfettiCannonModule
+    ConfettiModule
   ],
   // ...
 })
@@ -79,7 +79,7 @@ export class AppModule { }
 
 Use the directive in your template:
 ```html
-<lib-confetti-cannon></lib-confetti-cannon>
+<button [confetti]="{ particleCount: 50 }">Celebrate</button>
 ```
 
 ## 👨‍💻 Author

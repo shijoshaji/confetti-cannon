@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/angular-confetti-cannon",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Confettō: Angular wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "angular",
@@ -29,25 +29,25 @@
         "dist"
     ],
     "scripts": {
-        "build": "vite build",
-        "dev": "vite build --watch"
+        "build": "ng-packagr -p ng-package.json",
+        "dev": "ng-packagr -p ng-package.json --watch"
     },
     "peerDependencies": {
         "@angular/core": "^16.0.0 || ^17.0.0 || ^18.0.0",
         "@angular/common": "^16.0.0 || ^17.0.0 || ^18.0.0",
-        "rxjs": "^7.0.0"
-    },
-    "dependencies": {
+        "rxjs": "^7.0.0",
         "@jojovms/confetti-cannon-core": "*"
     },
     "devDependencies": {
-        "@angular/core": "^17.0.0",
         "@angular/common": "^17.0.0",
+        "@angular/compiler": "^17.0.0",
+        "@angular/compiler-cli": "^17.0.0",
+        "@angular/core": "^17.0.0",
+        "ng-packagr": "^17.0.0",
         "rxjs": "^7.8.0",
-        "typescript": "^5.3.3",
-        "vite": "^5.0.10",
-        "vite-plugin-dts": "^3.6.4",
-        "zone.js": "^0.14.0"
+        "tslib": "^2.3.0",
+        "typescript": "^5.2.0",
+        "zone.js": "~0.14.0"
     },
     "publishConfig": {
         "access": "public"

@@ -1,0 +1,26 @@
+
+> @jojovms/angular-confetti-cannon@0.0.2 build
+> ng-packagr -p ng-package.json
+
+Building Angular Package
+
+------------------------------------------------------------------------------
+Building entry point '@jojovms/angular-confetti-cannon'
+------------------------------------------------------------------------------
+- Compiling with Angular sources in Ivy partial compilation mode.
+Γ£ö Compiling with Angular sources in Ivy partial compilation mode.
+- Writing FESM bundles
+Γ£ö Writing FESM bundles
+- Copying assets
+Γ£ö Copying assets
+- Writing package manifest
+ΓÜá Distributing npm packages with 'dependencies' is not recommended. Please consider adding @jojovms/confetti-cannon-core to 'peerDependencies' or remove it from 'dependencies'.
+Γ£û Writing package manifest
+Dependency @jojovms/confetti-cannon-core must be explicitly allowed using the "allowedNonPeerDependencies" option.
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path D:\Skill Devlopment\IT\GitHub_Public_Repo\jojovms-npm-package-project\packages\confetti-cannon\angular
+npm error workspace @jojovms/angular-confetti-cannon@0.0.2
+npm error location D:\Skill Devlopment\IT\GitHub_Public_Repo\jojovms-npm-package-project\packages\confetti-cannon\angular
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c ng-packagr -p ng-package.json

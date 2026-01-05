@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/react-confetti-cannon",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Confettō: React wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "react",

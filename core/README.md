@@ -30,7 +30,7 @@ Easily bind confetti to user interactions.
 
 ```javascript
 confetto.attach('#celebrate-btn', {
-  on: 'click', // or 'mouseover'
+  on: 'click', // 'click', 'mouseover', 'mouseenter'
   particleCount: 50
 });
 ```
