@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/confetti-cannon-core",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Confettō: A zero-dependency confetti cannon for your web apps. Trigger it on success states, celebrations, or just for fun",
     "keywords": [
         "confetti",

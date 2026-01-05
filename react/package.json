@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/react-confetti-cannon",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Confettō: React wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "react",
@@ -35,12 +35,11 @@
     },
     "peerDependencies": {
         "react": ">=16.8.0",
-        "react-dom": ">=16.8.0"
-    },
-    "dependencies": {
+        "react-dom": ">=16.8.0",
         "@jojovms/confetti-cannon-core": "*"
     },
     "devDependencies": {
+        "@jojovms/confetti-cannon-core": "*",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "typescript": "^5.3.3",

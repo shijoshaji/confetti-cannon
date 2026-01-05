@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/angular-confetti-cannon",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Confettō: Angular wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "angular",
@@ -22,8 +22,8 @@
         "url": "https://github.com/shijoshaji/confetti-cannon/issues"
     },
     "homepage": "https://shijoshaji.in",
-    "main": "dist/index.js",
-    "module": "dist/index.mjs",
+    "main": "dist/fesm2022/jojovms-angular-confetti-cannon.mjs",
+    "module": "dist/fesm2022/jojovms-angular-confetti-cannon.mjs",
     "types": "dist/index.d.ts",
     "files": [
         "dist"
