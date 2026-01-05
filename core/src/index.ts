@@ -1,2 +1,2 @@
-export { confettō, Confettō } from './confetti';
+export { confetto, Confetto } from './confetti';
 export type { ConfettiOptions } from './confetti';

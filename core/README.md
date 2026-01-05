@@ -11,13 +11,13 @@ npm install @jojovms/confetti-cannon-core
 
 ### Basic Fire
 ```javascript
-import { confettō } from '@jojovms/confetti-cannon-core';
+import { confetto } from '@jojovms/confetti-cannon-core';
 
 // Simple explosion
-confettō.fire();
+confetto.fire();
 
 // Custom configuration
-confettō.fire({
+confetto.fire({
   particleCount: 100,
   spread: 70,
   origin: { x: 0.5, y: 1 }, // Bottom center
@@ -29,7 +29,7 @@ confettō.fire({
 Easily bind confetti to user interactions.
 
 ```javascript
-confettō.attach('#celebrate-btn', {
+confetto.attach('#celebrate-btn', {
   on: 'click', // or 'mouseover'
   particleCount: 50
 });

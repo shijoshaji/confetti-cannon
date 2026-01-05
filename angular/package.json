@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/angular-confetti-cannon",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Confettō: Angular wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "angular",
@@ -9,7 +9,7 @@
         "animation",
         "directive",
         "service",
-        "confettō",
+        "confetto",
         "jojovms"
     ],
     "author": "Shijo Shaji (https://shijoshaji.in)",

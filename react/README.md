@@ -30,8 +30,8 @@ const CelebrateButton = () => {
 You can also access the singleton directly.
 
 ```jsx
-import { confettō } from '@jojovms/react-confetti-cannon';
+import { confetto } from '@jojovms/react-confetti-cannon';
 
 // Attach globally
-confettō.attach('#special-element');
+confetto.attach('#special-element');
 ```

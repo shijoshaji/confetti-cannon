@@ -1,5 +1,5 @@
 import { Directive, Input, HostListener, ElementRef } from '@angular/core';
-import { confettō } from '@jojovms/confetti-cannon-core';
+import { confetto } from '@jojovms/confetti-cannon-core';
 import type { ConfettiOptions } from '@jojovms/confetti-cannon-core';
 
 @Directive({
@@ -24,7 +24,7 @@ export class ConfettiDirective {
         const x = (rect.left + rect.width / 2) / window.innerWidth;
         const y = (rect.top + rect.height / 2) / window.innerHeight;
 
-        confettō.fire({
+        confetto.fire({
             origin: { x, y },
             ...this.options
         });

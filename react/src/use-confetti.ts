@@ -1,8 +1,8 @@
-import { confettō, ConfettiOptions } from '@jojovms/confetti-cannon-core';
+import { confetto, ConfettiOptions } from '@jojovms/confetti-cannon-core';
 
 export const useConfetti = () => {
     const fire = (opts: ConfettiOptions = {}) => {
-        confettō.fire(opts);
+        confetto.fire(opts);
     };
 
     return { fire };

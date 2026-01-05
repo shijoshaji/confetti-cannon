@@ -17,7 +17,7 @@ export interface AttachOptions extends ConfettiOptions {
     on?: 'click' | 'mouseover' | 'mouseenter';
 }
 
-export class Confettō {
+export class Confetto {
     private canvas: HTMLCanvasElement | null = null;
     private ctx: CanvasRenderingContext2D | null = null;
     private particles: Particle[] = [];
@@ -174,4 +174,4 @@ export class Confettō {
     }
 }
 
-export const confettō = new Confettō();
+export const confetto = new Confetto();

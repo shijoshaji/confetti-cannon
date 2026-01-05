@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/react-confetti-cannon",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Confettō: React wrapper for @jojovms/confetti-cannon-core. Celebrate with style.",
     "keywords": [
         "react",
@@ -9,7 +9,7 @@
         "animation",
         "hook",
         "component",
-        "confettō",
+        "confetto",
         "jojovms"
     ],
     "author": "Shijo Shaji (https://shijoshaji.in)",

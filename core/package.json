@@ -1,6 +1,6 @@
 {
     "name": "@jojovms/confetti-cannon-core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Confettō: A zero-dependency confetti cannon for your web apps. Trigger it on success states, celebrations, or just for fun",
     "keywords": [
         "confetti",
@@ -9,7 +9,7 @@
         "core",
         "javascript",
         "typescript",
-        "confettō",
+        "confetto",
         "jojovms"
     ],
     "author": "Shijo Shaji (https://shijoshaji.in)",
